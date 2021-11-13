@@ -1,0 +1,12 @@
+<svg width="0" height="0" class="hidden">
+  <symbol viewBox="0 0 235 306" fill="none" xmlns="http://www.w3.org/2000/svg" id="shadow">
+    <path d="M0 153C0 67 70 0 152.446 0 183.341 0 235 62.109 235 153c0 90.891-50.647 153-82.047 153C74 306 0 244 0 153z" fill="url(#paint0_linear)"></path>
+    <defs>
+      <linearGradient id="paint0_linear" y1="153.505" x2="235" y2="153.505" gradientUnits="userSpaceOnUse">
+        <stop></stop>
+        <stop offset="0" stop-opacity=".65"></stop>
+        <stop offset="1" stop-opacity=".27"></stop>
+      </linearGradient>
+    </defs>
+  </symbol>
+</svg>
