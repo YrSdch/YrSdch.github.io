@@ -1,0 +1,2229 @@
+
+.chart-wrapper{
+	position: relative;
+	.zipcod_chart-wrap{
+		.chart-row{
+			width: 100%!important;
+			position: relative;
+			&.active{
+				.char-legend__value{
+					display: flex;
+					align-items: center;
+    			justify-content: center;
+				}
+			}
+		}
+		z-index: -1;
+		position: absolute;
+		top: 21px;
+		bottom: 65px;
+		right: 40px;
+		width: 100%!important;
+		font-size: 13px;
+		display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+		.char-legend__value{
+			position: absolute;
+			font-size: 13px;
+			background: #1F2B45;
+			padding: 10px;
+			color: #fff;
+			border-radius: 4px;
+			font-size: 14px;
+			font-family: Lato;
+			font-weight: bold;
+			bottom: 10px;
+			left: 83px;
+			display: none;
+			&:after{
+				content: '';
+				width: 10px;
+				height: 10px;
+				background: #1F2B45;
+				position: absolute;
+				bottom: -4px;
+				left: 50%;
+				transform: translateX(-50%) rotate(-45deg);
+			}
+		}
+		.invis-cover{
+			display: block;
+			width: 100%;
+			height: 7.5px!important;
+			height: 10px;
+			left: 0!important;
+			z-index: 10;
+		}
+	}
+}
+#barchart_material,
+#units_bedrooms,
+#units_householder,
+#educational_chart,
+#structure_built,
+#householder_moved,
+#vehicles_chart,
+#renter-occupied_chart,
+#mobility_householders_chart{
+	svg{
+		[width="12"][height="1"]{
+			display: none!important;
+		}
+	}
+}
+#barchart_material{
+	svg g g g g g text{
+				fill: #0E6C6E!important;
+			}
+}
+
+#chart_div{
+		div.google-visualization-tooltip{
+			background: #1F2B45;
+			padding: 10px;
+			color: #fff;
+			border-radius: 4px;
+			font-size: 14px;
+			font-family: Lato;
+			font-weight: bold;
+			margin-left: -65px!important;
+			margin-top: 15px!important;
+			&:after{
+				content: '';
+				width: 10px;
+				height: 10px;
+				background: #1F2B45;
+				position: absolute;
+				bottom: -4px;
+				left: 50%;
+				transform: translateX(-50%) rotate(-45deg);
+			}
+		}
+}
+#zipcod_chart{
+	div.google-visualization-tooltip{
+			background: #1F2B45;
+			padding: 10px;
+			color: #fff;
+			border-radius: 4px;
+			font-size: 14px;
+			font-family: Lato;
+			font-weight: bold;
+			margin-left: -55px!important;
+			margin-top: 15px!important;
+			&:after{
+				content: '';
+				width: 10px;
+				height: 10px;
+				background: #1F2B45;
+				position: absolute;
+				bottom: -4px;
+				left: 50%;
+				transform: translateX(-50%) rotate(-45deg);
+			}
+		}
+}
+.section-average{
+	overflow: hidden;
+}
+.section-rent-city{
+	overflow: hidden;
+}
+.embed-responsive{
+	overflow: hidden;
+}
+.section-rent-city{
+	overflow: hidden;
+}
+#line_top_x{
+	width: 125%;
+	div.google-visualization-tooltip{
+			width: 100px;
+			text-align: center;
+			background: #1F2B45;
+			padding: 6px;
+			color: #fff;
+			border-radius: 4px;
+			font-size: 13px;
+			font-family: Lato;
+			font-weight: bold;
+			margin-left: -75px!important;
+			margin-top: 10px!important;
+			&:after{
+				content: '';
+				width: 10px;
+				height: 10px;
+				background: #1F2B45;
+				position: absolute;
+				bottom: -4px;
+				left: 50%;
+				transform: translateX(-50%) rotate(-45deg);
+			}
+		}
+}
+#chart_div,
+#zipcod_chart {
+	svg g g g  rect{
+			 			position: relative;
+            stroke-width: 0px!important;
+            }
+	svg g g g  rect:hover {
+            stroke-width: 0px!important;
+             fill: #0E6C6E; 
+            }
+}
+
+
+.home-page {
+	font-family: 'Lato', sans-serif;
+	.view{
+		display: none;
+	}
+	.hide{
+		display: none!important;
+	}
+	section {
+		margin-bottom: 60px;
+		&.highlights-section {
+			margin-bottom: 35px;
+
+		}
+		&.rent-section {
+			.title-section {
+				margin-bottom: 40px;
+			}
+		}
+		&.section-average {
+			.title-section {
+				margin-bottom: 65px;
+			}
+		}
+		&.section-housing-tenure {
+			.rent-item {
+				.title-item {
+					font-size: 18px;
+				}
+			}
+		}
+	}
+	.section-housing-tenure{
+		.title-section {
+				margin-bottom: 14px;
+			}
+	}
+	.title-page {
+		font-size: 31px;
+		font-weight: bold;
+		color: $dark-blue;
+		margin: 35px 0;
+		.highlight {
+			padding-right: 5px;
+		}
+	}
+	.title-section {
+		display: flex;
+		color: $dark-blue;
+		position: relative;
+		font-size: 20px;
+		font-weight: bold;
+		margin-bottom: 24px;
+		span:nth-child(1):before {
+			position: absolute;
+			content: '';
+			left: 0px;
+			top: 26px;
+			background-color: $light-green;
+			width: 30px;
+			height: 3px;
+		}
+		.color-light-green{
+			width: 13px!important;
+			display: flex;
+			justify-content: center;
+		}
+	}
+	.before.title-section{
+		&:before {
+			left: 5px;
+			bottom: 34px;
+		}
+	}
+	.highlight {
+		color: $light-green;
+	}
+	.link-hover:hover{
+		color: #0E6C6E;
+		opacity: 1;
+	}
+	.txt {
+		color: $gray;
+		font-size: 14px;
+		padding-left: 35px;
+		position: relative;
+		line-height: 1.6;
+		text-align: justify;
+	}
+	.average-rent-chart {
+		.title-chart {
+			position: absolute;
+			top: 0;
+			left: 0;
+			font-size: 12px;
+			font-weight: bold;
+			color: #1F2B45;
+		}
+		.custom-legend {
+			font-size: 15px;
+			font-weight: 600;
+			display: flex;
+			max-width: 200px;
+			justify-content: space-between;
+			margin: 0 auto;
+			color: $dark-blue;
+			.legend-item {
+				position: relative;
+				padding-left: 25px;
+				&:before {
+					position: absolute;
+					left: 0;
+					top: calc(50% - 8.5px);
+					content: '';
+					background-color: $light-green;
+					width: 17px;
+					height: 17px;
+					border-radius: 50%;
+				}
+				&:last-child {
+					margin-left: -42px;
+					&:before {
+						background-color: $dark-blue;
+					}
+				}
+			}
+		}
+	}
+	.rent-item {
+		background: #FAFAFA 0% 0% no-repeat padding-box;
+		box-shadow: 0px 3px 6px #00000029;
+		border-radius: 10px;
+		padding: 18px 8px 18px 15px;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		margin-bottom: 30px;
+		// max-width: 405px;
+		.rent-info {
+			padding-left: 4px;
+		}
+		.title-item {
+			font-size: 23px;
+			color: $dark-blue;
+			font-weight: 900;
+			line-height: 1;
+			margin: 0;
+			letter-spacing: -0.5px;
+			.highlight {
+				margin-right: 7px;
+			}
+		}
+		.price-item {
+			color: $light-green;
+			font-weight: 600;
+			margin: 0;
+			font-size: 23px;
+		}
+	}
+	.section-info {
+		background: linear-gradient(to right, #004377, #009cd3);
+		margin-bottom: 70px;
+		.txt {
+			color: #fff;
+			font-size: 28px;
+			font-weight: 700;
+			text-align: center;
+			padding: 22px 0;
+			font: 32px/47px Lato;
+			.highlight-info {
+				font: Bold 32px/47px Lato;
+			}
+		}
+	}
+	.sign {
+		vertical-align: text-top;
+		font-size: 10px;
+		display: inline-block;
+    width: 10px;
+    height: 5px;
+    transform: translate(-6px, -11px);
+	}
+	.ico-arrow {
+		// position: relative;
+		position: absolute;
+		display: inline-block;
+		width: 30px;
+		height: 14px;
+		top: 4px;
+		left: 0;
+		.arr-1,.arr-2,.arr-3,.arr-4 {
+			&:before,
+			&:after {
+				content: '';
+				width: 1px;
+				height: 8px;
+				position: absolute;
+			}
+			&:before {
+				transform: rotate(-45deg);
+				top: 0;
+			}
+			&:after {
+				transform: rotate(45deg);
+				bottom: 0;
+			}
+		}
+		.arr-1 {
+			&:before,
+			&:after {
+				left: 6px;
+				background-color: $dark-blue;
+			}
+		}
+		.arr-2 {
+			&:before,
+			&:after {
+				left: 12px;
+				background-color: #3C6464;
+			}
+		}
+		.arr-3 {
+			&:before,
+			&:after {
+				left: 18px;
+				background-color: #589C83;
+			}
+		}
+		.arr-4 {
+			&:before,
+			&:after {
+				left: 24px;
+				background-color: $light-green;
+			}
+		}
+	}
+	.view-btn {
+		display: flex;
+		font-size: 15px;
+		color: $dark-green;
+		font-weight: 600;
+		justify-content: flex-end;
+		margin-top: 16px;
+		position: relative;
+		z-index: 10;
+		.view-btn-item {
+			cursor: pointer;
+			&:hover {
+				color: $light-green;
+			}
+			&.is-active {
+				color: $light-green;
+			}
+			+ .view-btn-item {
+				padding-left: 20px;
+				position: relative;
+				&:before {
+					position: absolute;
+					content: '';
+					top: calc(50% - 5px);
+					left: 10px;
+					background-color: $dark-green;
+					width: 2px;
+					height: 10px;
+					transform: rotate(15deg);
+				}
+			}
+		}
+	}
+	.table-responsive {
+		position: relative;
+		overflow-x: hidden;
+	}
+	.view-table {
+		font-size: 14px;
+		font-weight: 600;
+		color: $gray;
+		overflow: auto;
+		// padding: 133px 0;
+		padding: 0 0 266px;
+		table {
+			max-width: 1920px;
+			margin: 0 auto;
+			width: 100%;
+			tr {
+				td {
+					padding: 15px 0;
+					text-align: left;
+					&:first-child {
+						text-align: left;
+						padding-left: 15px;
+					}
+					&:last-child {
+						padding-right: 15px;
+					}
+				}
+				&.title-row {
+					background-color: $dark-green;
+					font-size: 16px;
+					td {
+						color: #fff;
+						&:first-child {
+							border-top-left-radius: 5px;
+							border-bottom-left-radius: 5px;
+						}
+						&:last-child {
+							border-top-right-radius: 5px;
+							border-bottom-right-radius: 5px;
+						}
+					}
+				}
+				&:nth-child(2n) {
+					color: $light-green;
+				}
+			}
+		}
+	}
+	.average-rent-chart,
+	.table-responsive {
+		display: none;
+		&.is-active {
+			display: block;
+			.view-table{
+				padding-bottom: 20px;
+			}
+		}
+	}
+	.median-section {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 25px 0;
+		background: #FAFAFA 0% 0% no-repeat padding-box;
+		box-shadow: 0px 3px 6px #00000029;
+		font-size: 21px;
+		border-radius: 10px;
+		margin-bottom: 70px;
+		.title-item {
+			margin: 0 0 0 14px;
+		}
+		.highlight {
+			font-weight: 900;
+			margin-left: 14px;
+		}
+	}
+	.chart-item {
+		width: 100%;
+	}
+	.chart-wrapper{
+		display: flex;
+	}
+	.chart-legend{
+		width: 30%;
+		font: Bold 15px/17px Lato;
+		letter-spacing: 0px;
+		position: relative;
+		z-index: 10;
+	}
+	.color-light-green{
+		color: $light-green;
+	}
+	.color-dark-blue{
+		color: $dark-blue;
+	}
+	.color-dark-green{
+		color: $dark-green;
+	}
+	
+	#units_bedrooms{
+		svg g g g g g text{
+				fill: #75D5A2!important;
+			}
+		width: 80%;
+	}
+	#units_householder{
+		svg g g g g g text{
+				fill: #0E6C6E!important;
+			}
+		width: 78%;
+	}
+	#structure_built{
+		width: 60%;
+		svg g g g g g text{
+				fill: #75D5A2!important;
+			}
+	}
+
+	#householder_moved{
+		width: 78%;
+		svg g g g g g text{
+				fill: #0E6C6E!important;
+			}
+	}
+	#vehicles_chart{
+		width: 78%;
+		svg g g g g g text{
+				fill: #75D5A2!important;
+			}
+	}
+	#renter-occupied_chart{
+		width: 78%;
+		width: 78%;
+		svg g g g g g text{
+				fill: #0E6C6E!important;
+			}
+	}
+	#educational_chart{
+		width: 70%;
+		svg g g g g g text{
+				fill: #0E6C6E!important;
+			}
+	}	
+	#mobility_householders_chart{
+		width: 70%;
+		svg g g g g g text{
+				fill: #75D5A2!important;
+			}
+	}
+	.chart-legend__name{
+			&:before{
+				content: '';
+				width: 7px;
+				height: 7px;
+				border-radius: 50%;
+				position: absolute;
+				left: 0;
+				top: 50%;
+				transform: translateY(-50%);
+			}
+	}
+	.barchart_material_char{
+		margin-bottom: 64px;
+		.chart-legend{
+			padding-top: 31px;
+			width: 15%;
+		}
+		.chart-legend__name{
+			width: 100%;
+			height: 32px;
+			border-right: none;
+		}
+		.chart-legend__name{
+			&:before{
+				background: $light-green;
+			}
+		}
+	}
+	.units_bedrooms_char{
+		margin-bottom: 52px;
+		.chart-legend{
+			padding-top: 23px;
+		}
+		.chart-legend__name,
+		.char-legend__value{
+				height: 33px;
+			}
+		.chart-legend__name{
+			&:before{
+				background: $dark-green;
+			}
+		}
+	}	
+	.units_householder_char{
+		.chart-legend{
+			padding-top: 22px;
+		}
+		.chart-legend__name,
+		.char-legend__value{
+				height: 31px;
+			}
+		.chart-legend__name{
+			width: 69%;
+			&:before{
+				background: $light-green;
+			}
+		}
+	}
+	.ed_chart{
+		margin-bottom: 47px;
+		.chart-legend{
+			width: 37%;
+			padding-top: 18px;
+		}
+		.chart-legend__name{
+			width: 80%;
+			&:before{
+				background: $light-green;
+			}
+		}
+		.char-legend__value{
+			width: 20%;
+		}
+		.chart-legend__name,
+		.char-legend__value{
+				height: 36px;
+			}
+	} 
+	
+	
+	.structure_built-chart{
+		margin-bottom: 14px;
+		.chart-legend{
+			padding-top: 40px;
+		}
+		.chart-legend__name{
+			&:before{
+				background: $dark-green;
+			}
+		}
+		.chart-legend__name{
+			width: 64%;
+		}
+		.chart-legend__name,
+		.char-legend__value{
+				height: 32px;
+		}
+	}
+	.householder_moved-chart{
+		.chart-legend{
+			padding-top: 27px;
+		}
+		
+		.chart-legend__name{
+			width: 76%;
+			&:before{
+				background: $light-green;
+			}
+		}
+		.chart-legend__name,
+		.char-legend__value{
+				height: 32px;
+		}
+	}
+	.vehic-chart{
+		.chart-legend{
+			width: 25%;
+			padding-top: 26px;
+		}
+		.chart-legend__name{
+			width: 72%;
+			&:before{
+				background: $dark-green;
+			}
+		}
+		.chart-legend__name,
+		.char-legend__value{
+				height: 33px;
+		}
+	}
+	.renter-oc_chart{
+		margin-bottom: 43px;
+		.chart-legend{
+			padding-top: 26px;
+			width: 34%;
+		}
+		.chart-legend__name{
+			width: 79%;
+			&:before{
+				background: $light-green;
+			}
+		}
+		.chart-legend__name,
+		.char-legend__value{
+				height: 40px;
+		}
+	}
+	.vehic-chart{
+		.chart-legend{
+				padding-top: 21px;
+			}
+		.chart-legend__name{
+			&:before{
+				background: $dark-green;
+			}
+		}
+		.chart-legend__name,
+		.char-legend__value{
+				height: 34px;
+		}
+	}
+	.mob_housh_chart {
+		.chart-legend{
+				width: 44%;
+				padding-top: 30px;
+			}
+		.chart-legend__name{
+			width: 80%;
+			&:before{
+				background: $dark-green;
+			}
+		}
+		.chart-legend__name,
+		.char-legend__value{
+				height: 32px;
+		}
+	}
+	.chart-legend__name{
+		width: 70%;
+		border-right: 1px solid #E5E5E5;
+		position: relative;
+		padding-left: 24px;
+		display: flex;
+		align-items: center;
+		&:before{
+			content: '';
+			width: 7px;
+			height: 7px;
+			border-radius: 50%;
+			background: #0E6C6E;
+			position: absolute;
+			left: 0;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+	}
+	.char-legend__value{
+		display: flex;
+		align-items: center;
+		width: 30%;
+		padding-left: 15px;
+	}
+	.chart-row{
+		display: flex;
+		position: relative;
+		z-index: 10;
+	}
+	
+	.pie-legend{
+		width: 50%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		position: relative;
+		z-index: 10;
+	}
+	#family_type{
+		width: 50%;
+		transform: translate(-49%, 2%);
+	}
+	#presence_children{
+		width: 50%;
+		transform: translate(-49%, 2%);
+	}
+	#chart-pie{
+		position: relative;
+		width: 50%;
+		transform: translate(-49%, 2%);
+		&:after{
+			content: '';
+			width: 100%;
+			height: 100%;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			top: 0;
+			z-index: 10;
+			background: transparent;
+			position: absolute;
+		}
+	}
+	.pie-row{
+		display: flex;
+		
+	}
+	.pie-legend__name{
+		display: flex;
+		align-items: center;
+		width: 100%;
+		position: relative;
+		z-index: 10;
+		font-size: 14px;
+		
+		.color-green70{
+			& + .pie-legend__value{
+				padding-bottom: 10px;
+				
+			}
+			.light-green-square{
+				transform: translateY(-65%);
+			}
+		}
+	}
+	
+	.pie-legend__value{
+		width: 120px;
+		padding-left: 20px;
+		font-size: 14px;
+		width: 23%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+	}
+	.light-green-square,
+	.dark-green-square{
+		position: absolute;
+		top: 50%;
+		left: 0;
+		transform: translateY(-35%);
+		width: 16px;
+		height: 16px;
+		border-radius: 3px;
+	}
+	.light-green-square{
+		background: #70CB9B ;
+	}
+	.dark-green-square{ 
+		background: #0E6C6E ;
+	}
+	.pie-legend__name,
+	.pie-legend__value{
+		position: relative;
+		padding-left: 20px;
+		font: Bold 14px/19px Lato;
+	}
+	// .pie-legend__value{
+	// 	border-left: 1px solid rgba(0, 0, 0, 0.1)
+	// }
+	.color-green70{
+		color: #70CB9B;
+	}
+	.color-green0E{
+		color: #0E6C6E;
+	}
+	.pie-chart-value1,
+	.pie-chart-value2{
+		font: Bold 24px/27px Lato;
+		position: absolute;
+		z-index: 30;
+	}
+	.pie-chart-value1{
+		top: -16%;
+		left: 45%;
+	}
+	.pie-chart-value2{
+		bottom: 21%;
+		left: 54%;
+	}
+	.pie-legend__data{
+		padding-bottom: 10px;
+		border-right: 1px solid rgba(0, 0, 0, 0.1);
+	}
+	.chart-pie_char{
+		margin-bottom: 20px;
+		
+		.pie-chart-value1{
+			top: -15%;
+			left: 44%;
+		}
+		.pie-chart-value2{
+			bottom: 14%;
+			left: 53%;
+		}
+	}
+	.family_type_char{
+		margin-bottom: 98px;
+		&:after{
+			content: '';
+			width: 100%;
+			height: 100%;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			top: 0;
+			z-index: 10;
+			background: transparent;
+			position: absolute;
+		}	
+	}
+	.presence_children_char{
+		&:after{
+			content: '';
+			width: 100%;
+			height: 100%;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			top: 0;
+			z-index: 10;
+			background: transparent;
+			position: absolute;
+		}
+		margin-bottom: 48px;
+	}
+	.family_type_char,
+	.presence_children_char,
+	.chart-pie_char{
+		position: relative;
+	}
+	@media screen and (max-width: 1199px) {
+		
+		.pie-legend{
+			.color-green0E:first-child{
+				width: 76%;
+			}
+			.color-green70:first-child{
+				width: 76%;
+			}
+		}
+	 .pie-legend__name,
+	 .pie-legend__value{
+	 	padding-left: 27px;
+	 }
+		.section-info {
+			.txt {
+				font-size: 22px;
+				.highlight-info {
+					font-size: 28px;
+				}
+			}
+		}
+		.char-legend__value{
+			padding-left: 5px;
+		}
+		.chart-pie_char {
+			.pie-chart-value1{
+				top: -4%;
+	    	left: 48%;
+			}
+			.pie-chart-value2{
+				bottom: 14%;
+	    	left: 62%;
+			}
+		}
+		.family_type_char{
+			.pie-chart-value1{
+				top: -8%;
+	    	left: 49%;
+			}
+			.pie-chart-value2{
+				bottom: 18%;
+	    	left: 62%;
+			}
+		}
+		.presence_children_char{
+			.pie-chart-value1{
+				top: -8%;
+	    	left: 49%;
+			}
+			.pie-chart-value2{
+				bottom: 18%;
+	    	left: 62%;
+			}
+		}
+		#chart-pie{
+			transform: translate(-35%, 2%)
+		}
+		#family_type{
+			transform: translate(-35%, 2%)
+		}
+		#presence_children{
+			transform: translate(-35%, 2%)
+		}
+		.renter-oc_chart{
+			.chart-legend__name,
+			.chart-legend__value{
+				height: 44px;
+			}
+		}
+	}
+	@media screen and (max-width: 991px) {
+		.section-info {
+			.txt {
+				font-size: 16px;
+				.highlight-info {
+					font-size: 18px;
+				}
+			}
+		}
+			.chart-pie_char .pie-chart-value1{
+				top: -25%;
+		    left: 62%;
+			}
+			.chart-pie_char .pie-chart-value2 {
+			  bottom: 25%;
+			  left: 81%;
+				}
+			.units_bedrooms_char{
+				.chart-legend{
+					width: 34%;
+				}
+			}
+			#units_bedrooms{
+				width: 66%;
+			}
+			.family_type_char{
+				.pie-chart-value1{
+					top: -7%;
+    			left: 61%;
+				}
+				.pie-chart-value2{
+					bottom: 21%;
+    			left: 82%;
+				}
+				.pie-legend{
+					justify-content: center;
+				}
+			}
+			.presence_children_char{
+				.pie-chart-value1{
+					top: -12%;
+    			left: 64%;
+				}
+				.pie-chart-value2{
+					bottom: 32%;
+    			left: 82%;
+				}
+			}
+		.householder_moved-chart{
+			.chart-legend{
+				width: 40%
+			}
+		}
+		#householder_moved{
+			width: 60%;
+		}
+		#chart_div{
+			div.google-visualization-tooltip{
+				margin-left: -58px!important;
+				margin-top: 15px!important;
+			}
+		}
+		.vehic-chart {
+			.chart-legend{
+				width: 45%;
+			}
+		}
+		#vehicles_chart{
+			width: 55%;
+		}
+		.section-rent-city{
+			overflow: hidden;
+		}
+		#chart-pie{
+			transform: translate(0%, 2%);
+		}
+		.pie-legend{
+			justify-content: flex-start;
+		}
+		#family_type{
+			transform: translate(0%, -2%);
+		}
+		#presence_children{
+			transform: translate(0%, -2%);
+		}
+		.ed_chart {
+			.chart-legend{
+				width: 41%;
+			}
+		}
+		#educational_chart{
+			width: 59%;
+		}
+	}
+	@media screen and (max-width: 767px) {
+		
+		.view{
+			display: flex;
+			position: absolute;
+			right: 32px;
+			bottom: 33px;
+			font-size: 11px;
+			&:before{
+				content: '';
+				position: absolute;
+				left: -20px;
+				top: 50%;
+				width: 10px;
+				height: 10px;
+				border-left: 2px solid $dark-green;
+				border-bottom: 2px solid $dark-green;
+				transform: translateY(-50%) rotate(135deg);
+				transition: 0.3s;
+			}
+			.less{
+				display: flex;
+				margin-left: 6px;
+			}
+			.more{
+				display: none;
+				margin-left: 6px;
+			}
+			&.active{
+				&:before{
+					transform: translateY(-50%) rotate(-45deg);
+					transition: 0.3s;					
+				}
+				.less{
+					display: none;
+				}
+				.more{
+					display: flex;
+				}
+			}
+		}
+			.container{
+				overflow-x: hidden;
+			}
+		.chart-wrapper .zipcod_chart-wrap {
+			display: flex;
+			z-index: 10;
+		}
+		.invis-cover{
+			position: absolute;
+			top: 50%;
+			left: 100%;
+			width: 100%;
+			height: 60%;
+			transform: translateY(-50%);
+			background: transparent;
+		}
+		#zipcod_chart{
+			width: 100%;
+			svg g+g>g>text{
+				fill: #fff!important;
+			}
+			svg g+g>g>rect{
+				fill: #1f2b45!important;
+			}
+		}
+		.sm-w50{
+			width: 50%;
+		}
+		.sm-w25{
+			width: 25%;
+		}
+		.sm-table,
+		.table__head{
+			width: 100%;
+		}
+		.table{
+			display: flex;
+			flex-direction: column;
+		}
+		.table__head{
+			background-color: #246A73;
+    	font-size: 16px;
+    	color: #fff;
+    	padding: 15px;
+    	border-radius: 5px;
+		}
+		.table__head,
+		.table__row{
+			display: flex;
+		}
+		.table__row:nth-child(2){
+			padding: 15px 15px 0;
+		}
+		.table__row:not(:nth-child(2)){
+			padding: 15px;
+		}
+		.pl7{
+			padding-left: 7%;
+		}
+		.pl4{
+			padding-left: 4px;
+		}
+
+		section.rent-section {
+				.title-section{
+					margin-bottom: 35px;
+				}
+			}
+		.title-page,
+		.title-section {
+			font-size: 16px;
+		}
+		section.section-average {
+			.title-section{
+				margin-bottom: 38px;
+			}
+		}
+		.rent-item {
+			margin: 0 auto 15px;
+			padding: 13px 8px 13px 15px;
+			.title-item,
+			.price-item {
+				font-size: 19px;
+			}
+			img{
+				max-width: 95px;
+			}
+		}
+		.section-info {
+			margin-bottom: 54px;
+			.txt {
+				font-size: 9px;
+				padding: 3px 0;
+				.highlight-info {
+					font-size: 12px;
+				}
+			}
+			.sign{
+				transform: translate(-2px, -18px);
+			}
+		}
+		#chart-pie{
+			transform: translate(0, 0);
+		}
+		#barchart_material{
+			
+			width: 60%;
+		}
+		#renter-occupied_chart{
+			width: 61%;
+		}
+		#units_householder{
+			width: 64%;
+		}
+		#householder_moved{
+			width: 66%;
+		}
+		#units_bedrooms{
+			width: 66%;
+		}
+		
+		#structure_built,
+		#vehicles_chart{
+			width: 50%;
+		}
+		.chart-legend{
+			width: 50%;
+		}
+		#educational_chart{
+			width: 67%;
+		}
+		.sign {
+			transform: translate(-6px, -18px);
+		}
+		.barchart_material_char{
+			margin-bottom: 28px;
+		}
+		.barchart_material_char .chart-legend{
+			width: 34%;
+			padding-top: 16px;
+			.chart-legend__name{
+				height: 32px;
+			}
+		}
+		.chart-pie_char{
+			flex-wrap: wrap;
+			margin-bottom: 2px;
+			.pie-legend{
+				width: 100%;
+				margin-bottom: 40px;
+				&>.color-green70{
+					width: 75%;
+				}
+				&>.color-green0E{
+					width: 75%;
+				}
+			}
+			.pie-chart-value1{
+				top: 30%;
+    		left: 28%;
+			}
+			.pie-chart-value2{
+				bottom: 11%;
+    		left: 62%;
+			}
+		}
+		#chart-pie{
+			width: 100%;
+		}
+		.chart-row{
+			&.active{
+				.char-legend__value{
+					display: flex;
+				}
+			}
+		}
+		.units_bedrooms_char{
+			.char-legend__value{
+				position: absolute;
+				background: #1F2B45;
+				bottom: calc(100% + 5px);
+				right: 0;
+				padding: 10px 0;
+				color: #fff;
+				border-radius: 4px;
+				font-size: 14px;
+				font-family: Lato;
+				font-weight: bold;
+				z-index: 20;
+				display: none;
+				align-items: center;
+				justify-content: center;
+				width: 100%;
+				&:after{
+					content: '';
+					width: 10px;
+					height: 10px;
+					background: #1F2B45;
+					position: absolute;
+					bottom: -4px;
+					left: 50%;
+					transform: translateX(-50%) rotate(-45deg);
+				}
+			}
+			.chart-legend__name{
+				width: 100%;
+				border-right: none;
+				height: 23px;
+			}
+		}
+		.units_householder_char{
+			.chart-legend__name{
+				width: 100%;
+			}
+			.char-legend__value{
+				position: absolute;
+				background: #1F2B45;
+				bottom: calc(100% + 5px);
+				right: 0;
+				padding: 10px 0;
+				color: #fff;
+				border-radius: 4px;
+				font-size: 14px;
+				font-family: Lato;
+				font-weight: bold;
+				z-index: 20;
+				display: none;
+				align-items: center;
+				justify-content: center;
+				width: 100%;
+				&:after{
+					content: '';
+					width: 10px;
+					height: 10px;
+					background: #1F2B45;
+					position: absolute;
+					bottom: -4px;
+					left: 50%;
+					transform: translateX(-50%) rotate(-45deg);
+				}
+			}
+		}
+		
+		
+		#family_type{
+			width: 100%;
+			transform: translate(0%, 0%);
+		}
+		.presence_children_char{
+			margin-top: 33px;
+			margin-bottom: 30px;
+			flex-wrap: wrap;
+			.pie-legend{
+				width: 100%;
+			}
+			.char-legend__value{
+				display: none;
+			}
+			.pie-chart-value1{
+				top: 38%;
+				left: 29%;
+			}
+			.pie-chart-value2{
+				bottom: 9%;
+				left: 63%;
+			}
+			.light-green-square,
+			.dark-green-square{
+				top: 34%;
+			}
+		}
+		#presence_children{
+			width: 100%;
+			transform: translate(0%, 0%);
+			margin-top: 40px;
+		}
+		.ed_chart{
+			.pie-legend{
+				width: 100%;
+			}
+			.char-legend__value{
+				position: absolute;
+				background: #1F2B45;
+				bottom: calc(100% + 5px);
+				right: 0;
+				padding: 10px 0;
+				color: #fff;
+				border-radius: 4px;
+				font-size: 14px;
+				font-family: Lato;
+				font-weight: bold;
+				z-index: 20;
+				display: none;
+				align-items: center;
+				justify-content: center;
+				width: 100%;
+				&:after{
+					content: '';
+					width: 10px;
+					height: 10px;
+					background: #1F2B45;
+					position: absolute;
+					bottom: -4px;
+					left: 50%;
+					transform: translateX(-50%) rotate(-45deg);
+				}
+			}
+		}
+		.structure_built-chart{
+			.pie-legend{
+				width: 100%;
+			}
+			.char-legend__value{
+				position: absolute;
+				background: #1F2B45;
+				bottom: calc(100% + 5px);
+				right: 0;
+				padding: 10px 0;
+				color: #fff;
+				border-radius: 4px;
+				font-size: 14px;
+				font-family: Lato;
+				font-weight: bold;
+				z-index: 20;
+				display: none;
+				align-items: center;
+				justify-content: center;
+				width: 100%;
+				&:after{
+					content: '';
+					width: 10px;
+					height: 10px;
+					background: #1F2B45;
+					position: absolute;
+					bottom: -4px;
+					left: 50%;
+					transform: translateX(-50%) rotate(-45deg);
+				}
+			}
+		}
+		.householder_moved-chart{
+			
+			.char-legend__value{
+				position: absolute;
+				background: #1F2B45;
+				bottom: calc(100% + 5px);
+				right: 0;
+				padding: 10px 0;
+				color: #fff;
+				border-radius: 4px;
+				font-size: 14px;
+				font-family: Lato;
+				font-weight: bold;
+				z-index: 20;
+				display: none;
+				align-items: center;
+				justify-content: center;
+				width: 100%;
+				&:after{
+					content: '';
+					width: 10px;
+					height: 10px;
+					background: #1F2B45;
+					position: absolute;
+					bottom: -4px;
+					left: 50%;
+					transform: translateX(-50%) rotate(-45deg);
+				}
+			}
+			.chart-legend__name{
+				width: 100%;
+			}
+		}
+		.vehic-chart{
+			
+			.char-legend__value{
+				position: absolute;
+				background: #1F2B45;
+				bottom: calc(100% + 5px);
+				right: 0;
+				padding: 10px 0;
+				color: #fff;
+				border-radius: 4px;
+				font-size: 14px;
+				font-family: Lato;
+				font-weight: bold;
+				z-index: 20;
+				display: none;
+				align-items: center;
+				justify-content: center;
+				width: 100%;
+				&:after{
+					content: '';
+					width: 10px;
+					height: 10px;
+					background: #1F2B45;
+					position: absolute;
+					bottom: -4px;
+					left: 50%;
+					transform: translateX(-50%) rotate(-45deg);
+				}
+			}
+			.chart-legend__name{
+				width: 100%;
+			}
+		}
+		.renter-oc_chart{
+			margin-bottom: 61px;
+			.chart-legend{
+			  width: 39%;
+			  padding-top: 8px;
+			}
+			.char-legend__value{
+				position: absolute;
+				background: #1F2B45;
+				bottom: calc(100% + 5px);
+				right: 0;
+				padding: 10px 0;
+				color: #fff;
+				border-radius: 4px;
+				font-size: 14px;
+				font-family: Lato;
+				font-weight: bold;
+				z-index: 20;
+				display: none;
+				align-items: center;
+				justify-content: center;
+				width: 100%;
+				&:after{
+					content: '';
+					width: 10px;
+					height: 10px;
+					background: #1F2B45;
+					position: absolute;
+					bottom: -4px;
+					left: 50%;
+					transform: translateX(-50%) rotate(-45deg);
+				}
+			}
+			.chart-legend__name{
+				width: 100%;
+				height: 31.5px;
+			}
+		}
+		.mob_housh_chart{
+			.char-legend__value{
+				position: absolute;
+				background: #1F2B45;
+				bottom: calc(100% + 5px);
+				right: 0;
+				padding: 10px 0;
+				color: #fff;
+				border-radius: 4px;
+				font-size: 14px;
+				font-family: Lato;
+				font-weight: bold;
+				z-index: 20;
+				display: none;
+				align-items: center;
+				justify-content: center;
+				width: 100%;
+				&:after{
+					content: '';
+					width: 10px;
+					height: 10px;
+					background: #1F2B45;
+					position: absolute;
+					bottom: -4px;
+					left: 50%;
+					transform: translateX(-50%) rotate(-45deg);
+				}
+			}
+			.chart-legend__name{
+				width: 100%;
+			}
+		}
+		
+		.structure_built-chart{
+			margin-bottom: 60px;
+			margin-top: 40px;
+			.chart-legend__name{
+				width: 100%;
+				height: 20px;
+			}
+			.chart-legend{
+				width: 40%;
+				padding-top: 0;
+			}
+		}
+		#structure_built{
+			width: 60%;
+		}
+		.chart-legend__name{
+			border-right: none;
+		}
+		.title-page{
+			margin-bottom: 28px;
+		}
+		.mb-sm12{
+			margin-bottom: 12px;
+		}
+		section {
+			margin-bottom: 48px;
+		}
+		.view-btn{
+			font-size: 11px;
+		}
+		.section-average{
+			margin-bottom: 36px;
+		}
+		.chart-legend{
+			font: Bold 13px/15px Lato
+		}
+		.pie-legend__name{
+			font: Bold 13px/15px Lato;
+			padding-right: 10px;		
+		}
+		.pie-legend__value{
+			width: 24%;
+			height: 100%!important;
+			font: Bold 13px/15px Lato;
+			display: flex;
+			align-items: flex-start;
+		}
+		.section-housing-tenure{
+			.title-section{
+				margin-bottom: 35px;
+			}
+		}
+		
+		section.section-housing-tenure {
+			.mb60{
+				margin-bottom: 60px;
+			}
+				.rent-item {
+					.title-item{
+						font-size: 15px;
+						letter-spacing: 0;
+					}
+				}
+		}
+		.df-sm{
+			display: flex;
+		}
+		.df-sm.title-section{
+			span:nth-child(1){
+				width: auto;
+			}
+			span:nth-child(2){
+				width: 12px;
+				flex-shrink: 0;
+			}
+			&:before{
+				bottom: 13px;
+			}
+		}
+		.units_bedrooms_char {
+			margin-bottom: 10px;
+			.chart-legend{
+				padding-top: 13px;
+			}
+		}
+		.chart-legend__name{
+			height: 20px;
+		}
+		.units_householder_char{
+			margin-bottom: 30px;
+			.chart-legend{
+				width: 36%;
+				padding-top: 19px;
+			}
+			.chart-legend__name{
+				height: 22px;
+			}
+		}
+		.mb-sm70{
+			margin-bottom: 70px;
+		}
+		.family_type_char {
+			flex-wrap: wrap;
+			margin-top: 34px;
+			margin-bottom: 32px;
+			.pie-legend{
+				margin-bottom: 40px;
+				width: 100%;
+			}
+			.pie-chart-value1{
+				top: 29%;
+				left: 29%;
+			}
+			.pie-chart-value2{
+				bottom: 11%;
+				left: 63%;
+			}
+			.char-legend__value{
+				display: none;
+			}
+		}
+		.ed_chart{
+				.chart-legend{
+					width: 40%;
+					padding-top: 0;
+			}
+			.chart-legend__name,
+			.char-legend__value{
+					height: 60px;
+			}
+		}
+		#educational_chart{
+			width: 60%;
+			margin-left: -20px;
+		}
+		.householder_moved-chart{
+			margin-top: 39px;
+			.chart-legend{
+				width: 34%;
+				padding-top: 0;
+			}
+			.chart-legend__name{
+				height: 19px;
+			}
+		}
+		.sm-hide{
+			display: none;
+		}
+		.median-section {
+			padding: 12px 0;
+			margin-bottom: 50px;
+			.title-item{
+				font-size: 14px;
+				margin-left: 5px;
+			}
+			.highlight{
+				margin-left: 5px;
+			}
+			img{
+				width: 5%;
+			}
+		}
+		.vehic-chart {
+			margin-top: 40px;
+			margin-bottom: 64px;
+			.chart-legend{
+				width: 35%;
+				padding-top: 0;
+			}
+			.chart-legend__name{
+				height: 19.5px
+			}
+		}
+		#vehicles_chart{
+			width: 65%;
+		}
+		.sm-show{
+			display: flex;
+		}
+		.mob_housh_chart {
+			margin-top: 30px;
+			margin-bottom: 55px;
+			.chart-legend{
+				padding-top: 8px;
+				width: 40%;
+			}
+			.chart-legend__name{
+				height: 38px;
+			}
+		}
+		#mobility_householders_chart{
+			width: 56%;
+		}
+		#zipcod_chart{
+			margin-bottom: 56px;
+		}
+		.section-rent-city{
+			margin-bottom: 27px;
+			overflow: hidden;
+		}
+		#chart_div{
+			width: 112%
+		}
+		#chart_div div.google-visualization-tooltip{
+			margin-left: -55px!important;
+		}
+		#line_top_x div.google-visualization-tooltip{
+			margin-top: -104px!important;
+		}
+	}
+	@media screen and (max-width: 568px) {
+		
+		.chart-legend__name{
+			padding-left: 10px;
+		}
+		.chart-legend{
+			width: 60%;
+		}
+		#units_bedrooms{
+			width: 70%;
+		}
+		.units_householder_char .chart-legend{
+			width: 30%;
+			padding-top: 19px;
+			.chart-legend__name{
+				height: 27px;
+			}
+		}
+		#units_householder{
+			width: 70%;
+		}
+		#educational_chart{
+			width: 65%;
+		}
+		#structure_built{
+			width: 60%;
+		}
+		#householder_moved{
+			width: 66%; 
+		}
+		#vehicles_chart{
+			width: 70%;
+		}
+		.renter-oc_chart {
+			.chart-legend{
+				padding-top: 0;
+			}
+			.chart-row{
+				.chart-legend__name,
+				.char-legend__value{
+					height: 41px;
+				}
+			}
+			
+		}
+		#renter-occupied_chart{
+			width: 61%;
+		}
+		#mobility_householders_chart{
+			width: 60%;
+		}
+		.mob_housh_chart {
+			.chart-legend{
+				padding-top: 0;
+			}
+			.chart-legend__name{
+				height: 49px;
+			}
+		}
+		#barchart_material{
+			width: 66%;
+		}
+		#chart_div{
+			width: 120%
+		}
+		#line_top_x{
+			width: 180%;
+		}
+		.vehic-chart {
+			.chart-legend{
+				width: 30%;
+			}
+			.chart-legend__name {
+				height: 28.5px;
+			}
+		}
+		.section-rent-city{
+			overflow: hidden;
+		}
+		.ed_chart {
+			.chart-legend{
+				width: 35%;
+			}
+		}		
+	}
+	@media screen and (max-width: 340px){
+		.median-section {
+			.title-item{
+				font-size: 13px;
+			}
+		}
+		.chart-legend__name{
+			font-size: 12px;
+		}
+		#educational_chart{
+			margin-left: 0;
+		}
+		#line_top_x{
+			width: 195%;
+		}
+		.section-info .txt .highlight-info{
+			font-size: 11px;
+		}
+		.section-info .txt{
+			font-size: 8px;
+		}
+	}
+	@media screen and (min-width: 767px) {
+	
+		.sm-show{
+			display: none;
+		}
+		.barchart_material_char{
+			.chart-legend{
+				width: 15%;
+				padding-top: 18px;
+			}
+		}
+		#barchart_material{
+			width: 85%;
+		}
+		.chart-legend{
+			width: 40%;
+		}
+		.units_householder_char{
+			.chart-legend__name,
+			.char-legend__value{
+				flex-shrink: 0;
+				& span:nth-child(1){
+					margin-right: 5px;
+				}
+			}			
+		}
+		.householder_moved-chart{
+			.chart-legend__name,
+			.char-legend__value{
+				flex-shrink: 0;
+				& span:nth-child(1){
+					margin-right: 5px;
+				}
+			}	
+		}
+		.vehic-chart {
+			.chart-legend__name,
+			.char-legend__value{
+				flex-shrink: 0;
+				& span:nth-child(1){
+					margin-left: 5px;
+				}
+			}	
+		}
+	 .chart-legend__name{
+			width: 80%;
+		}
+		.char-legend__value{
+			width: 120px;
+			padding-left: 20px;
+		}
+		
+		#chart_div{
+			margin-left: -20px;
+	    width: 110%;
+		}
+		#zipcod_chart{
+			width: 106%;
+		}
+	}
+	.renter-oc_chart{
+		.chart-legend__name,
+		.char-legend__value{
+			height: 44px;
+		}
+	}
+	.section-housing-tenure{
+		margin-bottom: 20px;
+	}
+	@media screen and (min-width: 1200px) {
+		.householder_moved-chart{
+			.chart-legend{
+				width: 323px;
+			}
+			.chart-legend__name{
+				width: 210px;
+			}
+			.char-legend__value{
+				width: 120px;
+			}
+		}
+		#chart_div{
+			margin-left: -34px;
+	    width: 110%;
+		}
+		
+		.units_bedrooms_char{
+			.chart-legend{
+				width: 230px;
+			}
+			.chart-legend__name{
+				width: 152px;
+			}
+		}
+		.chart-legend__name{
+			width: 47%;
+		}
+		.mb32{
+			margin-bottom: 32px;
+		}
+		.mb40{
+			margin-bottom: 40px;
+		}
+		.mb60{
+			margin-bottom: 60px;
+		}
+		.mb70{
+			margin-bottom: 70px;
+		}
+		.mb75{
+			margin-bottom: 75px;
+		}
+		#barchart_material{
+			margin-right: -10px;
+			margin-left: auto;
+   		padding-top: 15px;
+   		width: 88%;
+		}
+		#units_bedrooms{
+			margin-right: auto;
+    	margin-left: -10px;
+    	flex: 1;
+    	width: calc(80% + 10px)
+		}
+		#units_householder{
+    	margin-left: -30px;
+			flex: 1;
+			width: calc(80% + 30px)
+		}
+		#educational_chart{
+			margin-right: -20px;
+    	margin-left: auto;
+		}
+		.structure_built-chart{
+			.chart-legend{
+				width: 293px;
+			}
+		}
+		#structure_built{
+			
+    	margin-left: -25px;
+    	width: calc(80% + 25px);
+    	flex: 1;
+		}
+		#householder_moved{
+			width: calc(80% + 30px);
+    	margin-left: -30px;
+		}
+		#vehicles_chart {
+			width: calc(80% + 30px);
+			margin-left: -30px;
+		}
+		#renter-occupied_chart{
+			margin-left: -28px;
+			flex: 1;
+			width: calc(80% + 20px)
+		}
+		#mobility_householders_chart{
+			width: calc(70% + 20px);
+			flex: 1;
+    	margin-left: -10px;
+		}
+		.mb12{
+			margin-bottom: 12px;
+		}
+		.container {
+			max-width: 1294px;
+			overflow-x: hidden;
+		}
+		section{
+			&.rent-section{
+				margin-bottom: 69px;
+			}
+			&.section-average{
+				margin-bottom: 70px;
+				.title-section{
+					margin-bottom: 73px;
+				}
+			}
+		}
+		.barchart_material_char 
+		.chart-legend{
+			width: 12%;
+			padding-top: 31px;
+		}
+		.units_householder_char{
+			margin-bottom: 45px;
+			.chart-legend__name{
+				width: 163px;
+			}
+			.chart-legend{
+				width: 282px;
+			}
+		}
+		.family_type_char {
+			.pie-legend__name{
+				width: auto;
+				margin-right: 20px;
+				}
+			.pie-legend__value{
+				padding-left: 20px;
+			}
+			.pie-legend__data{
+				width: 345px;
+			}
+		}
+		.presence_children_char{
+			.pie-legend__name {
+				width: auto;
+			}
+			.pie-legend__data{
+				width: 345px;
+				.pie-legend__value{
+					padding-left: 20px;
+				}
+			}
+		}
+		.ed_chart .chart-legend__name{
+			width: 347px;
+		}
+		.vehic-chart{
+			.chart-legend{
+				width: 342px;
+			}
+			.chart-legend__name{
+				width: 230px;
+			}
+			.char-legend__value{
+				width: 112px;
+			}
+		}
+		.mob_housh_chart{
+			.chart-legend{
+				width: 503px;
+			}
+			.chart-legend__name{
+				width: 415px;
+			}
+		}
+		.renter-oc_chart{
+			.chart-legend{
+				width: 451px;
+			}
+			.chart-legend__name,
+			.char-legend__value{
+				height: 33px;
+			}
+		}
+		.chart-legend__name{
+			width: 336px;
+		}
+		.chart-pie_char{
+			.pie-legend__data{
+				width: 345px;
+			}
+		}
+		
+	}
+	@media screen and (min-width: 1300px) {
+		.container {
+			overflow-x: unset;
+		}
+	}
+}

@@ -1,0 +1,23 @@
+// bootstrap overrides
+$grid-breakpoints: (
+	xs: 0,
+	sm: 576px,
+	md: 768px,
+	lg: 992px,
+	xl: 1280px
+);
+$container-max-widths: (
+	sm: 540px,
+	md: 751px,
+	lg: 970px,
+	xl: 1280px
+);
+
+$dark-green: #246A73;
+$light-green: #75D5A2;
+$dark-blue:#1F2B45;
+$gray: #707070;
+
+$font-light: 300;
+$semi-bold: 600;
+$bold: 700;
