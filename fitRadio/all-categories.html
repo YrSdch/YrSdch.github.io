@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+
+    <link rel="shortcut icon" href="favicon/favicon.ico" />
+
+    <title>FitRadio</title>
+    <script>
+      let hostName = window.location.hostname;
+      let windowWidth = window.innerWidth;
+      let isSplash = window.location.href.toString().match("mobile-splash") !== null;
+      (function redirectToSplash() {
+        if (isSplash) {
+          return;
+        }
+        if (windowWidth < 769) {
+          window.location.replace("./mobile-splash.html");
+        }
+      })();
+    </script>
+    <link href="./css/home.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="container-fluid all-categories">
+      <nav class="aside-menu">
+        <div class="aside-menu__inner">
+          <header class="header all-categories">
+            <a href="/" class="header__logo">
+              <svg width="176" height="32" viewBox="0 0 176 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_1937_38)">
+                  <path
+                    d="M57.0896 13.7672V15.3912H53.2496V17.18H56.9V18.804H53.2496V22.052H51.4V13.7672H57.0896Z"
+                    fill="white"
+                  />
+                  <path d="M68.136 13.7672H69.9856V22.052H68.136V13.7672Z" fill="white" />
+                  <path
+                    d="M85.0153 15.3672V22.052H83.1665V15.3672H80.8185V13.7672H87.3601V15.3672H85.0153Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M104.915 16.5176C104.915 17.8432 104.39 18.7024 103.338 19.0896L105.434 22.0536H103.162L101.324 19.4096H100.044V22.0536H98.1945V13.768H101.334C102.622 13.768 103.539 13.9856 104.09 14.42C104.639 14.8544 104.915 15.5528 104.915 16.5176ZM102.686 17.5024C102.917 17.2968 103.031 16.9696 103.031 16.5232C103.031 16.076 102.912 15.7704 102.675 15.604C102.437 15.4384 102.024 15.3552 101.431 15.3552H100.045V17.8096H101.394C102.026 17.8104 102.457 17.7064 102.686 17.5024Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M122.196 22.0536L121.426 20.2632H117.954L117.182 22.0536H115.214L118.794 13.768H120.584L124.164 22.0536H122.196ZM119.697 16.2328L118.653 18.64H120.726L119.697 16.2328Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M140.937 14.852C141.724 15.5752 142.12 16.58 142.12 17.8704C142.12 19.1576 141.735 20.1752 140.963 20.928C140.194 21.6776 139.018 22.0536 137.438 22.0536H134.606V13.768H137.532C139.012 13.7672 140.145 14.1288 140.937 14.852ZM139.581 19.7776C140.034 19.3504 140.261 18.7304 140.261 17.916C140.261 17.1016 140.034 16.476 139.581 16.0368C139.126 15.5992 138.427 15.3792 137.489 15.3792H136.458V20.4168H137.631C138.476 20.4168 139.124 20.2048 139.581 19.7776Z"
+                    fill="white"
+                  />
+                  <path d="M153.203 13.7672H155.053V22.052H153.203V13.7672Z" fill="white" />
+                  <path
+                    d="M173.542 20.9096C172.707 21.7272 171.674 22.136 170.45 22.136C169.226 22.136 168.195 21.7272 167.356 20.9096C166.518 20.092 166.101 19.0744 166.101 17.8568C166.101 16.6408 166.518 15.6224 167.356 14.8056C168.195 13.9888 169.225 13.5792 170.45 13.5792C171.674 13.5792 172.707 13.988 173.542 14.8056C174.38 15.6224 174.8 16.6416 174.8 17.8568C174.8 19.0744 174.38 20.0912 173.542 20.9096ZM172.915 17.8624C172.915 17.1248 172.678 16.4936 172.205 15.9728C171.73 15.452 171.148 15.1896 170.456 15.1896C169.764 15.1896 169.181 15.452 168.707 15.9728C168.233 16.4936 167.994 17.1248 167.994 17.8624C167.994 18.6016 168.233 19.2312 168.707 19.7464C169.181 20.2648 169.764 20.5232 170.456 20.5232C171.148 20.5232 171.73 20.2656 172.205 19.7464C172.678 19.2312 172.915 18.6016 172.915 17.8624Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M26.1137 26.444V12.156H20.5529V26.444H16.4153V6.09601H10.8561V29.2208C10.8561 30.7568 12.1001 32.0008 13.6361 32.0008H39.9433V26.4448H26.1137V26.444Z"
+                    fill="white"
+                  />
+                  <path d="M35.8073 18.3104H30.2473V22.7936H35.8073V18.3104Z" fill="white" />
+                  <path
+                    d="M1.15845 29.22C1.15845 30.756 2.40165 32 3.93845 32H5.90725H6.71765V26.444V0.040802H1.15845V29.22Z"
+                    fill="white"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_1937_38">
+                    <rect width="176" height="32" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </a>
+          </header>
+
+          <p class="aside-menu__title">menu</p>
+
+          <ul class="aside-menu__list">
+            <li class="current">
+              <a href="/">
+                <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M3.95712 8.4151L11.4786 3.81866C11.7987 3.62304 12.2014 3.62304 12.5215 3.81866L20.0429 8.4151C20.6374 8.77842 21 9.42493 21 10.1217V19.0001C21 20.1046 20.1046 21.0001 19 21.0001L5 21.0001C3.89543 21.0001 3 20.1046 3 19.0001L3.00002 10.1217C3.00002 9.42493 3.36261 8.77842 3.95712 8.4151ZM10 13C9.44773 13 9.00002 13.4477 9.00002 14V17C9.00002 17.5523 9.44773 18 10 18H14C14.5523 18 15 17.5523 15 17V14C15 13.4477 14.5523 13 14 13H10Z"
+                  />
+                </svg>
+                <span>
+                  Home
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="djs">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M8 17.04V8C8 7.56262 8.28425 7.17598 8.70173 7.04552L17.7017 4.54552C18.3457 4.34429 19 4.82536 19 5.5V17C19 17.0002 19 17.0004 19 17.0006C18.9996 18.1049 17.8805 19 16.5 19C15.1193 19 14 18.1046 14 17C14 15.8954 15.1193 15 16.5 15C16.6712 15 16.8384 15.0138 17 15.04V8L10 9.875V19C10 19.0002 10 19.0004 10 19.0006C9.99961 20.1049 8.88047 21 7.5 21C6.11929 21 5 20.1046 5 19C5 17.8954 6.11929 17 7.5 17C7.67123 17 7.83844 17.0138 8 17.04Z"
+                  />
+                </svg>
+                <span>DJs</span>
+              </a>
+            </li>
+            <li>
+              <a href="favorite">
+                <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M13.5 0.5C11.8905 0.5 10.0083 2.32463 9 3.5C7.99175 2.32463 6.1095 0.5 4.5 0.5C1.651 0.5 0 2.72218 0 5.55041C0 8.68347 3 12 9 15.5C15 12 18 8.75 18 5.75C18 2.92177 16.349 0.5 13.5 0.5Z"
+                  />
+                </svg>
+                <span>Favorites</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <main class="content-container">
+        <div class="row">
+          <div class="col-12">
+            <div class="hero__item" style="background-image: url('./img/all-category/all-category-bg.png')">
+              <img src="./img/Horizontal_Logo_2.png" alt="" class="category-logo" />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="flex-column align-center">
+              <div class="all-category__content">
+                <a
+                  href="#"
+                  class="all-category__item"
+                  style="background-image: url('./img/all-category/Most_Popular.png')"
+                >
+                  <h3 class="all-category__item-title">
+                    Most Popular
+                  </h3>
+                </a>
+                <a
+                  href="#"
+                  class="all-category__item"
+                  style="background-image: url('./img/all-category/High_Energy.png')"
+                >
+                  <h3 class="all-category__item-title">
+                    High Energy
+                  </h3>
+                </a>
+                <a
+                  href="#"
+                  class="all-category__item"
+                  style="background-image: url('./img/all-category/Cross_Train.png')"
+                >
+                  <h3 class="all-category__item-title">
+                    Cross Train
+                  </h3>
+                </a>
+                <a href="#" class="all-category__item" style="background-image: url('./img/all-category/Hip_Hop.png')">
+                  <h3 class="all-category__item-title">
+                    Hip Hop
+                  </h3>
+                </a>
+                <a href="#" class="all-category__item" style="background-image: url('./img/all-category/Top_40.png')">
+                  <h3 class="all-category__item-title">
+                    Top 40
+                  </h3>
+                </a>
+                <a
+                  href="#"
+                  class="all-category__item"
+                  style="background-image: url('./img/all-category/Throwbacks.png')"
+                >
+                  <h3 class="all-category__item-title">
+                    Throwbacks
+                  </h3>
+                </a>
+                <a href="#" class="all-category__item" style="background-image: url('./img/all-category/130_BPM.png')">
+                  <h3 class="all-category__item-title">
+                    130 BPM
+                  </h3>
+                </a>
+                <a href="#" class="all-category__item" style="background-image: url('./img/all-category/140_BPM.png')">
+                  <h3 class="all-category__item-title">
+                    140 BPM
+                  </h3>
+                </a>
+                <a href="#" class="all-category__item" style="background-image: url('./img/all-category/150_BPM.png')">
+                  <h3 class="all-category__item-title">
+                    150 BPM
+                  </h3>
+                </a>
+                <a href="#" class="all-category__item" style="background-image: url('./img/all-category/32_Count.png')">
+                  <h3 class="all-category__item-title">
+                    32 Count
+                  </h3>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <div class="player">
+      <div class="player__row">
+        <div class="song-info">
+          <div class="song-info__img">
+            <div class="song-info__album-auth">
+              <img src="./img/face/Ellipse_1.png" alt="" />
+            </div>
+
+            <div class="song-info__img-label">
+              <div class="song-info__auth-name">
+                DJ Fusemania
+              </div>
+            </div>
+          </div>
+          <div class="song-info__track">
+            <h3 class="song-info__track-title">
+              Feel the Fire
+            </h3>
+            <h4 class="song-info__track-subtitle">
+              Hideaway(remix) - Kiesza
+            </h4>
+          </div>
+        </div>
+        <div class="progress-control">
+          <div class="player-controls">
+            <button class="backward">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M17.1713 18.277L10.4306 12.3975C10.2225 12.2159 10.201 11.9001 10.3825 11.692C10.3971 11.6753 10.4128 11.6595 10.4295 11.6449L17.1702 5.72823C17.3777 5.54607 17.6936 5.56664 17.8758 5.77417C17.9558 5.8654 18 5.98263 18 6.10401V17.9002C18 18.1764 17.7761 18.4002 17.5 18.4002C17.3792 18.4002 17.2624 18.3565 17.1713 18.277Z"
+                  fill="white"
+                />
+                <path
+                  d="M8 6H7C6.44772 6 6 6.44772 6 7V17C6 17.5523 6.44772 18 7 18H8C8.55228 18 9 17.5523 9 17V7C9 6.44772 8.55228 6 8 6Z"
+                  fill="white"
+                />
+              </svg>
+            </button>
+            <button class="rewind">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M17.1713 18.277L10.4306 12.3975C10.2225 12.2159 10.201 11.9001 10.3825 11.692C10.3971 11.6753 10.4128 11.6595 10.4295 11.6449L17.1702 5.72823C17.3777 5.54607 17.6936 5.56664 17.8758 5.77417C17.9558 5.8654 18 5.98263 18 6.10401V17.9002C18 18.1764 17.7761 18.4002 17.5 18.4002C17.3792 18.4002 17.2624 18.3565 17.1713 18.277Z"
+                  fill="white"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M11.1713 18.277L4.43063 12.3975C4.22253 12.2159 4.20098 11.9001 4.3825 11.692C4.39709 11.6753 4.41278 11.6595 4.42946 11.6449L11.1702 5.72823C11.3777 5.54607 11.6936 5.56664 11.8758 5.77417C11.9558 5.8654 12 5.98263 12 6.10401V17.9002C12 18.1764 11.7761 18.4002 11.5 18.4002C11.3792 18.4002 11.2624 18.3565 11.1713 18.277Z"
+                  fill="white"
+                />
+              </svg>
+            </button>
+            <button class="play">
+              <span class="play_icon">
+                <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M1.02604 11.7065L7.15395 6.36142C7.34313 6.19641 7.36272 5.90927 7.19771 5.72009C7.18444 5.70488 7.17018 5.69057 7.15501 5.67726L1.0271 0.298484C0.838434 0.13288 0.55124 0.151578 0.385637 0.340246C0.312845 0.423176 0.272705 0.529753 0.272705 0.640098V11.3639C0.272705 11.615 0.476212 11.8185 0.72725 11.8185C0.837108 11.8185 0.943248 11.7787 1.02604 11.7065Z"
+                    fill="black"
+                  />
+                </svg>
+              </span>
+              <span class="pause_icon"></span>
+            </button>
+            <button class="fast_forward">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M6.82866 18.277L13.5694 12.3975C13.7775 12.2159 13.799 11.9001 13.6175 11.692C13.6029 11.6753 13.5872 11.6595 13.5705 11.6449L6.82984 5.72823C6.6223 5.54607 6.30639 5.56664 6.12422 5.77417C6.04415 5.8654 6 5.98263 6 6.10401V17.9002C6 18.1764 6.22386 18.4002 6.5 18.4002C6.62084 18.4002 6.7376 18.3565 6.82866 18.277Z"
+                  fill="white"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M12.8287 18.277L19.5694 12.3975C19.7775 12.2159 19.799 11.9001 19.6175 11.692C19.6029 11.6753 19.5872 11.6595 19.5705 11.6449L12.8298 5.72823C12.6223 5.54607 12.3064 5.56664 12.1242 5.77417C12.0442 5.8654 12 5.98263 12 6.10401V17.9002C12 18.1764 12.2239 18.4002 12.5 18.4002C12.6208 18.4002 12.7376 18.3565 12.8287 18.277Z"
+                  fill="white"
+                />
+              </svg>
+            </button>
+            <button class="forward">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M6.82866 18.277L13.5694 12.3975C13.7775 12.2159 13.799 11.9001 13.6175 11.692C13.6029 11.6753 13.5872 11.6595 13.5705 11.6449L6.82984 5.72823C6.6223 5.54607 6.30639 5.56664 6.12422 5.77417C6.04415 5.8654 6 5.98263 6 6.10401V17.9002C6 18.1764 6.22386 18.4002 6.5 18.4002C6.62084 18.4002 6.7376 18.3565 6.82866 18.277Z"
+                  fill="white"
+                />
+                <path
+                  d="M16 6H17C17.5523 6 18 6.44772 18 7V17C18 17.5523 17.5523 18 17 18H16C15.4477 18 15 17.5523 15 17V7C15 6.44772 15.4477 6 16 6Z"
+                  fill="white"
+                />
+              </svg>
+            </button>
+          </div>
+          <div class="flex-row align-center">
+            <div class="player-timer current">0:00</div>
+            <div class="progress">
+              <div class="progress__filled"></div>
+            </div>
+            <div class="player-timer left"></div>
+          </div>
+        </div>
+        <div class="player__right-panel">
+          <button class="favorite">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M3.4181 5.31884C4.3842 4.17658 5.79264 3.5 7.5 3.5C8.64319 3.5 9.73774 4.12595 10.5785 4.76152C11.0976 5.15389 11.5814 5.5976 12 6.02293C12.4186 5.5976 12.9024 5.15389 13.4215 4.76152C14.2623 4.12595 15.3568 3.5 16.5 3.5C18.2379 3.5 19.6462 4.25107 20.5986 5.43888C21.5344 6.60607 22 8.15129 22 9.75C22 11.5981 21.0758 13.3922 19.4848 15.1158C17.8905 16.843 15.5467 18.5888 12.5039 20.3638L12 20.6577L11.4961 20.3638C8.45078 18.5873 6.10434 16.8228 4.50839 15.0584C2.91264 13.2943 2 11.453 2 9.55041C2 7.94929 2.46738 6.44292 3.4181 5.31884ZM4.94515 6.61039C4.35812 7.30447 4 8.3233 4 9.55041C4 10.7809 4.58736 12.1644 5.99161 13.7168C7.3146 15.1794 9.30306 16.7232 12.0001 18.3385C14.6997 16.7235 16.6907 15.1941 18.0152 13.7592C19.4242 12.2328 20 10.9019 20 9.75C20 8.52048 19.6401 7.4407 19.0382 6.68995C18.4528 5.95981 17.6111 5.5 16.5 5.5C16.0337 5.5 15.3824 5.78637 14.6276 6.35695C13.9067 6.90189 13.2361 7.59488 12.759 8.15109L12 9.0359L11.241 8.15109C10.7639 7.59488 10.0933 6.90189 9.37244 6.35695C8.61764 5.78637 7.96631 5.5 7.5 5.5C6.35836 5.5 5.5168 5.9345 4.94515 6.61039Z"
+                fill="white"
+              />
+            </svg>
+          </button>
+          <div class="equalizer">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <div class="volume-container">
+            <button class="volume-button">
+              <div class="volume icono-volumeMedium">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    opacity="0.3"
+                    d="M16.3155 16.1481C15.954 16.3503 15.497 16.2211 15.2949 15.8596C15.0927 15.4981 15.2219 15.0411 15.5834 14.8389C16.6045 14.2679 17.25 13.1909 17.25 11.9999C17.25 10.8178 16.6141 9.74749 15.6049 9.17302C15.2449 8.96811 15.1192 8.51018 15.3241 8.1502C15.529 7.79022 15.9869 7.66451 16.3469 7.86942C17.8201 8.70798 18.75 10.2731 18.75 11.9999C18.75 13.7396 17.8061 15.3145 16.3155 16.1481ZM16.7888 19.8891C16.4155 20.0687 15.9673 19.9117 15.7878 19.5384C15.6082 19.1651 15.7652 18.717 16.1385 18.5374C18.6312 17.3383 20.25 14.8152 20.25 11.9999C20.25 9.21164 18.6622 6.70854 16.2061 5.49536C15.8347 5.31192 15.6824 4.86215 15.8658 4.49077C16.0492 4.11939 16.499 3.96704 16.8704 4.15048C19.8335 5.61409 21.75 8.63538 21.75 11.9999C21.75 15.397 19.7961 18.4425 16.7888 19.8891Z"
+                    fill="white"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M7 15.9998L3.60777 15.3214C2.67292 15.1344 2 14.3136 2 13.3602V10.6395C2 9.68609 2.67292 8.86527 3.60777 8.6783L7 7.99985L10.2929 4.70696C10.6834 4.31643 11.3166 4.31643 11.7071 4.70696C11.8946 4.89449 12 5.14885 12 5.41406V18.5856C12 19.1379 11.5523 19.5856 11 19.5856C10.7348 19.5856 10.4804 19.4803 10.2929 19.2927L7 15.9998Z"
+                    fill="white"
+                  />
+                </svg>
+              </div>
+            </button>
+
+            <div class="volume-slider">
+              <div class="volume-percentage"></div>
+            </div>
+          </div>
+        </div>
+
+        <audio class="player__audio viewer">
+          <source
+            src="https://www.bensound.com/bensound-music/bensound-ukulele.mp3"
+            type="audio/mpeg"
+            data-trackid="1"
+          />
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+    </div>
+    <div class="overly popup">
+      <div class="popup__body">
+        <div class="popup__icon">
+          <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle opacity="0.04" cx="60" cy="60" r="60" fill="white" />
+            <g clip-path="url(#clip0_1926_3163)">
+              <path
+                d="M76.5 96C65.748 96 57 87.252 57 76.5C57 65.748 65.748 57 76.5 57C87.252 57 96 65.748 96 76.5C96 87.252 87.252 96 76.5 96ZM76.5 61.5C68.229 61.5 61.5 68.229 61.5 76.5C61.5 84.771 68.229 91.5 76.5 91.5C84.771 91.5 91.5 84.771 91.5 76.5C91.5 68.229 84.771 61.5 76.5 61.5Z"
+                fill="white"
+              />
+              <path
+                d="M81.747 84C81.297 84 80.838 83.865 80.442 83.58L75.192 79.83C74.601 79.41 74.25 78.726 74.25 78V68.25C74.25 67.008 75.258 66 76.5 66C77.742 66 78.75 67.008 78.75 68.25V76.842L83.058 79.917C84.072 80.64 84.303 82.044 83.583 83.055C83.142 83.673 82.449 84 81.747 84Z"
+                fill="white"
+              />
+              <path
+                d="M48.75 84H30.75C27.03 84 24 80.97 24 77.25V51.75C24 48.03 27.03 45 30.75 45H65.25C67.185 45 69.015 45.825 70.275 47.271C71.091 48.207 70.998 49.626 70.062 50.445C69.132 51.264 67.71 51.171 66.888 50.232C66.48 49.767 65.886 49.5 65.25 49.5H30.75C29.511 49.5 28.5 50.511 28.5 51.75V77.25C28.5 78.489 29.511 79.5 30.75 79.5H48.75C49.992 79.5 51 80.508 51 81.75C51 82.992 49.992 84 48.75 84Z"
+                fill="white"
+              />
+              <path
+                d="M60.75 49.5C59.508 49.5 58.5 48.492 58.5 47.25V39C58.5 33.21 53.79 28.5 48 28.5C42.21 28.5 37.5 33.21 37.5 39V47.25C37.5 48.492 36.492 49.5 35.25 49.5C34.008 49.5 33 48.492 33 47.25V39C33 30.729 39.729 24 48 24C56.271 24 63 30.729 63 39V47.25C63 48.492 61.992 49.5 60.75 49.5Z"
+                fill="white"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_1926_3163">
+                <rect width="72" height="72" fill="white" transform="translate(24 24)" />
+              </clipPath>
+            </defs>
+          </svg>
+        </div>
+        <h3 class="popup__title">
+          Elevate your workout with
+          <span class="color-warning">FITRADIO</span>
+          <span class="popup__label">pro</span>
+        </h3>
+        <p class="popup__content">
+          Unlock FitRadio Pro today and gain access to the best workout music mixes available. It’s time to take your
+          workout to the next level.
+        </p>
+        <a href="" class="popup__btn">
+          Start My Free 30 Day Trial
+        </a>
+      </div>
+    </div>
+    <footer class="footer"></footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <script type="text/javascript" src="home.bundle.js?hash=20b125caedb0ca3f1a8b"></script>
+  </body>
+</html>

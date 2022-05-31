@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+
+    <link rel="shortcut icon" href="favicon/favicon.ico" />
+
+    <title>FitRadio</title>
+    <script>
+      let hostName = window.location.hostname;
+      let windowWidth = window.innerWidth;
+      let isSplash = window.location.href.toString().match("mobile-splash") !== null;
+      (function redirectToSplash() {
+        if (isSplash) {
+          return;
+        }
+        if (windowWidth < 769) {
+          window.location.replace("./mobile-splash.html");
+        }
+      })();
+    </script>
+    <link href="./css/home.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="container-fluid mobile-body">
+      <div class="row">
+        <div class="col-12">
+          <div class="mobile__content">
+            <div class="mobile__logo">
+              <img src="./img/mobile/image_5.png" alt="" />
+            </div>
+            <h1 class="mobile__title">Download the <span class="color-danger">FITRADIO</span> App for free</h1>
+            <div class="mobile__text">
+              Get FITRADIO today and gain access to the best workout music mixes available.
+            </div>
+            <div class="mobile__button">
+              <a href="" class="mobile__btn g-play">
+                <img src="./img/mobile/AppStore.png" alt="" />
+              </a>
+              <a href="" class="mobile__btn app-store">
+                <img src="./img/mobile/GooglePlay.png" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer"></footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <script type="text/javascript" src="home.bundle.js?hash=20b125caedb0ca3f1a8b"></script>
+  </body>
+</html>

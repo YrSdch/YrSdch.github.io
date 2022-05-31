@@ -1,0 +1,558 @@
+{
+  "home_page": {
+    "top_slider": [
+      {
+        "title": "The Gainz Train",
+        "subtitle": "DJ B. Mills",
+        "category": "Pop & Rock Hits",
+        "rhythm": "150-170 Ascending BPM",
+        "imgSrc": "./img/Header.png"
+      },
+      {
+        "title": "The Gainz Train 2",
+        "subtitle": "DJ B. Mills",
+        "category": "Pop & Rock Hits",
+        "rhythm": "150-170 Ascending BPM",
+        "imgSrc": "./img/instructor_pro.png"
+      }
+    ],
+    "instructors": [
+      {
+        "title": "The Gainz Train 2",
+        "subtitle": "DJ B. Mills",
+        "category": "Pop & Rock Hits",
+        "rhythm": "150-170 Ascending BPM",
+        "imgSrc": "./img/instructor_pro.png",
+        "imgSrcAuth_1": "./img/face/Ellipse_1.png",
+        "imgSrcAuth_2": "./img/face/Ellipse_1_1.png"
+      },
+      {
+        "title": "FEEL THE POWER",
+        "subtitle": "DJ B. Mills",
+        "category": "Pop & Rock Hits",
+        "rhythm": "150-170 Ascending BPM",
+        "imgSrc": "./img/Header.png",
+        "imgSrcAuth_1": "./img/face/Ellipse_1_1.png",
+        "imgSrcAuth_2": "./img/face/Ellipse_1.png"
+      }
+    ],
+    "music_genres": [
+      {
+        "title": "High Energy",
+        "subtitle": "Uptempo Chart Hits",
+        "imgSrc": "./img/homeMyMusicGenres/energy.png",
+        "link": "#"
+      },
+      {
+        "title": "Pop",
+        "subtitle": "Radio style Pop only",
+        "imgSrc": "./img/homeMyMusicGenres/pop.png",
+        "link":  "#"
+      },
+      {
+        "title": "Top 40",
+        "subtitle": "EDM, Pop, Throwbacks",
+        "imgSrc": "./img/homeMyMusicGenres/top40.png",
+        "link":  "#"
+      },
+      {
+        "title": "Feel Good",
+        "subtitle": "EDM, Pop, Throwbacks",
+        "imgSrc": "./img/homeMyMusicGenres/feelGood.png",
+        "link":  "#"
+      },
+      {
+        "title": "Pop",
+        "subtitle": "Radio style Pop only",
+        "imgSrc": "./img/homeMyMusicGenres/pop.png",
+        "link":  "#"
+      },
+      {
+        "title": "Feel Good",
+        "subtitle": "EDM, Pop, Throwbacks",
+        "imgSrc": "./img/homeMyMusicGenres/feelGood.png",
+        "link":  "#"
+      }
+    ],
+    "moods_slider": [
+      {
+        "title": "High Energy",
+        "subtitle": "Uptempo Chart Hits",
+        "imgSrc": "./img/moods/highEnergy.png",
+        "link": "#"
+      },
+      {
+        "title": "Pop",
+        "subtitle": "Radio style Pop only",
+        "imgSrc": "./img/moods/highEnergy2.png",
+        "link":  "#"
+      },
+      {
+        "title": "Top 40",
+        "subtitle": "EDM, Pop, Throwbacks",
+        "imgSrc": "./img/moods/highEnergy3.png",
+        "link":  "#"
+      },
+      {
+        "title": "Feel Good",
+        "subtitle": "EDM, Pop, Throwbacks",
+        "imgSrc": "./img/moods/highEnergy4.png",
+        "link":  "#"
+      },
+      {
+        "title": "Pop",
+        "subtitle": "Radio style Pop only",
+        "imgSrc": "./img/moods/highEnergy.png",
+        "link":  "#"
+      },
+      {
+        "title": "Feel Good",
+        "subtitle": "EDM, Pop, Throwbacks",
+        "imgSrc": "./img/moods/highEnergy2.png",
+        "link":  "#"
+      }
+    ],
+    "mixes_slider": [
+      {
+        "title": "Feel the Fire  ",
+        "subtitle": "EDM, Top 40, Uptem...",
+        "imgSrc": "./img/suggest/Rectangle_257.png",
+        "link": "#",
+        "authName": "Fusemania",
+        "authImg":"./img/face/Ellipse_1.png"
+      },
+      {
+        "title": "Run the Block",
+        "subtitle": "EDM, Top 40, Uptem...",
+        "imgSrc": "./img/suggest/Rectangle_257_1.png",
+        "link":  "#",
+        "authName": "Fusemania",
+        "authImg": "./img/face/Ellipse_1.png"
+      },
+      {
+        "title": "Burn It Up",
+        "subtitle": "EDM, Top 40, Uptem...",
+        "imgSrc": "./img/suggest/unsplash_OlTjeydUpQw.png",
+        "link":  "#",
+        "authName": "Fusemania",
+        "authImg": "./img/face/Ellipse_1_2.png"
+      },
+      {
+        "title": "Essential Hits",
+        "subtitle": "EDM, Top 40, Uptem...",
+        "imgSrc": "./img/suggest/unsplash_pEgsWN0kwbQ.png",
+        "link":  "#",
+        "authName": "Fusemania",
+        "authImg": "./img/face/Ellipse_1_3.png"
+      },
+      {
+        "title": "Pop",
+        "subtitle": "Radio style Pop only",
+        "imgSrc": "./img/suggest/unsplash_OlTjeydUpQw.png",
+        "link":  "#",
+        "authName": "Fusemania",
+        "authImg": "./img/face/Ellipse_1_4.png"
+      },
+      {
+        "title": "Feel Good",
+        "subtitle": "EDM, Pop, Throwbacks",
+        "imgSrc": "./img/suggest/Rectangle_257.png",
+        "link":  "#",
+        "authName": "Fusemania",
+        "authImg": "./img/face/Ellipse_1_5.png"
+      },
+      {
+        "title": "Pop",
+        "subtitle": "Radio style Pop only",
+        "imgSrc": "./img/suggest/unsplash_OlTjeydUpQw.png",
+        "link":  "#",
+        "authName": "Fusemania",
+        "authImg": "./img/face/Ellipse_1_4.png"
+      }
+    ],
+    "vertical_card_slider": [
+      {
+        "title": "Drake",
+        "subtitle": "129 mixes",
+        "imgSrc": "./img/artists/Drake.png",
+        "link": "#"
+      },
+      {
+        "title": "Post",
+        "subtitle": "72 mixes",
+        "imgSrc": "./img/artists/Post.png",
+        "link":  "#"
+      },
+      {
+        "title": "Metallica",
+        "subtitle": "72 mixes",
+        "imgSrc": "./img/artists/Metallica.png",
+        "link":  "#"
+      },
+      {
+        "title": "Pitbull",
+        "subtitle": "72 mixes",
+        "imgSrc": "./img/artists/Pitbull.png",
+        "link":  "#"
+      },
+      {
+        "title": "Skrillex",
+        "subtitle": "72 mixes",
+        "imgSrc": "./img/artists/Skrillex.png",
+        "link":  "#"
+      },
+      {
+        "title": "Skrillex",
+        "subtitle": "72 mixes",
+        "imgSrc": "./img/artists/Skrillex.png",
+        "link":  "#"
+      },
+      {
+        "title": "Pitbull",
+        "subtitle": "72 mixes",
+        "imgSrc": "./img/artists/Pitbull.png",
+        "link":  "#"
+      },
+      {
+        "title": "Skrillex",
+        "subtitle": "72 mixes",
+        "imgSrc": "./img/artists/Skrillex.png",
+        "link":  "#"
+      },
+      {
+        "title": "Skrillex",
+        "subtitle": "72 mixes",
+        "imgSrc": "./img/artists/Skrillex.png",
+        "link":  "#"
+      }
+    ],
+    "dj_like": [
+      {
+        "title": "Fusemania",
+        "subtitle": "25.7M plays",
+        "imgSrc": "./img/face/Ellipse_1.png",
+        "link": "#"
+      },
+      {
+        "title": "dj casez",
+        "subtitle": "25.7M plays",
+        "imgSrc": "./img/face/Ellipse_1_1.png",
+        "link":  "#"
+      },
+      {
+        "title": "dj rolemodel",
+        "subtitle": "25.7M plays",
+        "imgSrc": "./img/face/Ellipse_1_2.png",
+        "link":  "#"
+      },
+      {
+        "title": "shoeney",
+        "subtitle": "25.7M plays",
+        "imgSrc": "./img/face/Ellipse_1_3.png",
+        "link":  "#"
+      },
+      {
+        "title": "DJ Scotty fox",
+        "subtitle": "25.7M plays",
+        "imgSrc": "./img/face/Ellipse_1_4.png",
+        "link":  "#"
+      },
+      {
+        "title": "dj rolemodel",
+        "subtitle": "25.7M plays",
+        "imgSrc": "./img/face/Ellipse_1_5.png",
+        "link":  "#"
+      },
+      {
+        "title": "DJ Scotty fox",
+        "subtitle": "25.7M plays",
+        "imgSrc": "./img/face/Ellipse_1_4.png",
+        "link":  "#"
+      },
+      {
+        "title": "DJ Scotty fox",
+        "subtitle": "25.7M plays",
+        "imgSrc": "./img/face/Ellipse_1_4.png",
+        "link":  "#"
+      },
+      {
+        "title": "dj rolemodel",
+        "subtitle": "25.7M plays",
+        "imgSrc": "./img/face/Ellipse_1_5.png",
+        "link":  "#"
+      },
+      {
+        "title": "DJ Scotty fox",
+        "subtitle": "25.7M plays",
+        "imgSrc": "./img/face/Ellipse_1_4.png",
+        "link":  "#"
+      }
+    ],
+    "home_activity": [
+      {
+        "title": "Fusemania",
+        "subtitle": "25.7M plays",
+        "imgSrc": "./img/homeActivity/Rectangle_29.png",
+        "link": "#"
+      },
+      {
+        "title": "dj casez",
+        "subtitle": "25.7M plays",
+        "imgSrc": "./img/homeActivity/Rectangle_29_1.png",
+        "link":  "#"
+      },
+      {
+        "title": "dj rolemodel",
+        "subtitle": "25.7M plays",
+        "imgSrc": "./img/homeActivity/Rectangle_29_2.png",
+        "link":  "#"
+      },
+      {
+        "title": "shoeney",
+        "subtitle": "25.7M plays",
+        "imgSrc": "./img/homeActivity/Rectangle_29_3.png",
+        "link":  "#"
+      },
+      {
+        "title": "DJ Scotty fox",
+        "subtitle": "25.7M plays",
+        "imgSrc": "./img/homeActivity/Rectangle_29_1.png",
+        "link":  "#"
+      },
+      {
+        "title": "dj rolemodel",
+        "subtitle": "25.7M plays",
+        "imgSrc": "./img/homeActivity/Rectangle_29_2.png",
+        "link":  "#"
+      },
+      {
+        "title": "DJ Scotty fox",
+        "subtitle": "25.7M plays",
+        "imgSrc": "./img/homeActivity/Rectangle_29_3.png",
+        "link":  "#"
+      }
+    ],
+    "instructors_stations": [
+      {
+        "title": "32 Count",
+        "subtitle": "Uptempo Chart Hits...",
+        "imgSrc": "./img/instructors-station/Rectangle_29.png",
+        "link": "#"
+      },
+      {
+        "title": "Trainer Series",
+        "subtitle": "Radio style Pop only...",
+        "imgSrc": "./img/instructors-station/Rectangle_29_1.png",
+        "link":  "#"
+      },
+      {
+        "title": "Kickboxing",
+        "subtitle": "EDM, Pop, Throwbacks, ...",
+        "imgSrc": "./img/instructors-station/Rectangle_29_2.png",
+        "link":  "#"
+      },
+      {
+        "title": "High Energy",
+        "subtitle": "EDM, Pop, Throwbacks, ...",
+        "imgSrc": "./img/instructors-station/Rectangle_29_3.png",
+        "link":  "#"
+      },
+      {
+        "title": "High Energy",
+        "subtitle": "EDM, Pop, Throwbacks, ...",
+        "imgSrc": "./img/instructors-station/Rectangle_29.png",
+        "link":  "#"
+      },
+      {
+        "title": "High Energy",
+        "subtitle": "EDM, Pop, Throwbacks, ...",
+        "imgSrc": "./img/instructors-station/Rectangle_29_1.png",
+        "link":  "#"
+      }
+    ],
+    "bpm_mixes": [
+      {
+        "title": "32 Count",
+        "subtitle": "Uptempo Chart Hits...",
+        "imgSrc": "./img/mixes/Group_107.png",
+        "link": "#"
+      },
+      {
+        "title": "Trainer Series",
+        "subtitle": "Radio style Pop only...",
+        "imgSrc": "./img/mixes/Group_108.png",
+        "link":  "#"
+      },
+      {
+        "title": "Kickboxing",
+        "subtitle": "EDM, Pop, Throwbacks, ...",
+        "imgSrc": "./img/mixes/Group_109.png",
+        "link":  "#"
+      },
+      {
+        "title": "High Energy",
+        "subtitle": "EDM, Pop, Throwbacks, ...",
+        "imgSrc": "./img/mixes/Group_110.png",
+        "link":  "#"
+      },
+      {
+        "title": "High Energy",
+        "subtitle": "EDM, Pop, Throwbacks, ...",
+        "imgSrc": "./img/mixes/Group_107.png",
+        "link":  "#"
+      },
+      {
+        "title": "High Energy",
+        "subtitle": "EDM, Pop, Throwbacks, ...",
+        "imgSrc": "./img/mixes/Group_108.png",
+        "link":  "#"
+      }
+    ],
+    "content_sections": {
+      "running": [
+        {
+          "title": "Hip Hop",
+          "subtitle": "160 BPM",
+          "imgSrc": "./img/runing/Group_104.png",
+          "link":  "#"
+        },
+        {
+          "title": "Pop",
+          "subtitle": "150 BPM",
+          "imgSrc": "./img/runing/Group_105.png",
+          "link":  "#"
+        },
+        {
+          "title": "Hip-Hop",
+          "subtitle": "150 BPM",
+          "imgSrc": "./img/runing/Group_103.png",
+          "link":  "#"
+        },
+        {
+          "title": "Popular",
+          "subtitle": "RUN",
+          "imgSrc": "./img/runing/Group_106.png",
+          "link":  "#"
+        }
+      ],
+      "best_of": [
+        {
+          "title": "Hip Hop",
+          "subtitle": "BEST OF",
+          "imgSrc": "./img/best_of/Rectangle_28.png",
+          "link":  "#"
+        },
+        {
+          "title": "Pop",
+          "subtitle": "BEST OF",
+          "imgSrc": "./img/best_of/Rectangle_28_1.png",
+          "link":  "#"
+        },
+        {
+          "title": "Rock",
+          "subtitle": "BEST OF",
+          "imgSrc": "./img/best_of/Rectangle_28_2.png",
+          "link":  "#"
+        },
+        {
+          "title": "EDM",
+          "subtitle": "BEST OF",
+          "imgSrc": "./img/best_of/Rectangle_28_3.png",
+          "link":  "#"
+        }
+      ]
+    }
+  },
+  "tracks_list": [
+    {
+      "id": "1",
+      "title": "Ukulele",
+      "track_subtitle": "Hideaway(remix) - Kiesza",
+      "artist": "Bensound",
+      "artist_img": "./img/face/Ellipse_1.png",
+      "src": "https://www.bensound.com/bensound-music/bensound-ukulele.mp3",
+      "cover": "https://www.bensound.com/bensound-img/ukulele.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Summer",
+      "track_subtitle": "Hideaway(remix) - Kiesza 2",
+      "artist": "Bensound",
+      "artist_img": "./img/face/Ellipse_1_1.png",
+      "src": "https://www.bensound.com/bensound-music/bensound-summer.mp3",
+      "cover": "https://www.bensound.com/bensound-img/summer.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Happy Rock",
+      "track_subtitle": "Hideaway(remix) - Kiesza 3",
+      "artist": "Bensound",
+      "artist_img": "./img/face/Ellipse_1.png",
+      "src": "https://www.bensound.com/bensound-music/bensound-happyrock.mp3",
+      "cover": "https://www.bensound.com/bensound-img/happyrock.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Jazzy Frenchy",
+      "track_subtitle": "Hideaway(remix) - Kiesza 4",
+      "artist": "Bensound",
+      "artist_img": "./img/face/Ellipse_1.png",
+      "src": "https://www.bensound.com/bensound-music/bensound-jazzyfrenchy.mp3",
+      "cover": "https://www.bensound.com/bensound-img/jazzyfrenchy.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Acoustic Breeze",
+      "track_subtitle": "Hideaway(remix) - Kiesza 5",
+      "artist": "Bensound",
+      "artist_img": "./img/face/Ellipse_1.png",
+      "src": "https://www.bensound.com/bensound-music/bensound-acousticbreeze.mp3",
+      "cover": "https://www.bensound.com/bensound-img/acousticbreeze.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Punky",
+      "track_subtitle": "Hideaway(remix) - Kiesza 6",
+      "artist": "Bensound",
+      "artist_img": "./img/face/Ellipse_1.png",
+      "src": "https://www.bensound.com/bensound-music/bensound-punky.mp3",
+      "cover": "https://www.bensound.com/bensound-img/punky.jpg"
+    },
+    {
+      "id": "7",
+      "title": "Badass",
+      "track_subtitle": "Hideaway(remix) - Kiesza 7",
+      "artist": "Bensound",
+      "artist_img": "./img/face/Ellipse_1.png",
+      "src": "https://www.bensound.com/bensound-music/bensound-badass.mp3",
+      "cover": "https://www.bensound.com/bensound-img/badass.jpg"
+    },
+    {
+      "id": "8",
+      "title": "Brazil Samba",
+      "track_subtitle": "Hideaway(remix) - Kiesza",
+      "artist": "Bensound",
+      "artist_img": "./img/face/Ellipse_1.png",
+      "src": "https://www.bensound.com/bensound-music/bensound-brazilsamba.mp3",
+      "cover": "https://www.bensound.com/bensound-img/brazilsamba.jpg"
+    },
+    {
+      "id": "9",
+      "title": "Creepy",
+      "track_subtitle": "Hideaway(remix) - Kiesza",
+      "artist": "Bensound",
+      "artist_img": "./img/face/Ellipse_1.png",
+      "src": "https://www.bensound.com/bensound-music/bensound-creepy.mp3",
+      "cover": "https://www.bensound.com/bensound-img/creepy.jpg"
+    },
+    {
+      "id": "10",
+      "title": "High Octane",
+      "track_subtitle": "Hideaway(remix) - Kiesza",
+      "artist": "Bensound",
+      "artist_img": "./img/face/Ellipse_1.png",
+      "src": "https://www.bensound.com/bensound-music/bensound-highoctane.mp3",
+      "cover": "https://www.bensound.com/bensound-img/highoctane.jpg"
+    }
+  ]
+}
